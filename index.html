@@ -222,7 +222,7 @@
         
         hologramVideo.addEventListener('ended', () => showTaskButton());
         playVideoBtn.onclick = () => { if (!videoPlayed) startVideoOnce(); };
-        taskBtn.onclick = () => window.open('https://t.me/lessa2332', '_blank');
+        taskBtn.onclick = () => window.open('https://lessa2332.github.io/1807box/', '_blank');
         
         // Розпізнавання руки
         let handLandmarker = null;
@@ -292,7 +292,7 @@
                 const lm = results.landmarks[0];
                 if (!handVisible) {
                     handVisible = true;
-                    statusDiv.innerHTML = '🖐️ Рука виявлена! Браслет активовано.';
+                    statusDiv.innerHTML = '🖐️ Рука виявлена! ';
                 }
                 // Центр зап'ястя
                 const wristCenter = {
